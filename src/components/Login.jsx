@@ -55,6 +55,7 @@ function LoggedOut({ performLogin, change }) {
           variant='outlined'
         />
         <TextField
+          type='password'
           size='small'
           id='password'
           label='Password'
