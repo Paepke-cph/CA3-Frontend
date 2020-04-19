@@ -36,6 +36,9 @@ export default function Header() {
         <IconButton component={NavLink} to='/content3' color='inherit'>
           Content 3
         </IconButton>
+        <IconButton component={NavLink} to='/links' color='inherit'>
+          Find Links
+        </IconButton>
         {isLoggedIn && (
           <Typography style={{ flex: 1 }} variant='h6' noWrap>
             username: {name}, roles: {roles.join(', ')}

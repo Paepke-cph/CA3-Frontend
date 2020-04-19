@@ -7,6 +7,7 @@ import Jokes from '../components/Jokes.jsx';
 import Home from '../components/Home.jsx';
 import ProtectedRoute from '../components/routes/ProtectedRoute.jsx';
 import Unauthorized from '../components/Unauthorized.jsx';
+import Links from '../components/Links';
 
 const Routes = () => {
   return (
@@ -24,6 +25,9 @@ const Routes = () => {
 
       <Route path='/content3'>
         <Content3 />
+      </Route>
+      <Route path='/links'>
+        <Links />
       </Route>
       <Route path='/unauthorized'>
         <Unauthorized />
